@@ -11,6 +11,7 @@
     display: block;
     height: 32px;
     width: 32px;
+    position: relative;
 }
 
 .loader-3 span {
@@ -780,7 +781,7 @@
 }
 
 .footer-form {
-    width: 564px;
+    max-width: 564px;
     margin: 50px 0;
 }
 
@@ -794,7 +795,7 @@
 .footer-form-form input,
 .footer-form-form textarea,
 .footer-form-form button {
-    width: calc(75% - 5px);
+    width: 400px;
     height: 60px;
     margin-bottom: 10px;
     padding: 0 5px;
@@ -988,7 +989,7 @@
     .footer-form-form input,
 .footer-form-form textarea,
 .footer-form-form button {
-    width: calc(63% - 5px);
+    width: 350px;
 }
 }
 
@@ -1041,7 +1042,7 @@
     .footer-form-form input,
     .footer-form-form textarea,
     .footer-form-form button {
-        width: calc(40% - 5px);
+        width: 220px;
     }
 }
 
