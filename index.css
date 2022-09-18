@@ -197,6 +197,7 @@
     align-items: center;
     height: 103px;
     padding: 18px 0;
+    overflow: hidden;
     position: sticky;
     z-index: 99;
     top: 0;
